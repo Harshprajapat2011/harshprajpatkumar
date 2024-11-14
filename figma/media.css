@@ -1,0 +1,345 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+.logo{
+    margin: auto;
+}
+ .icon_bar{
+    display: none;
+ }  
+  /*end header  */
+     /* row1 */
+.lefttext{
+        width: 100%;
+        text-align: center;
+    }
+    .lefttext h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .lefttext p{
+        font-size: 18px; 
+        line-height: 20px;
+        padding: 10px 10px;
+    
+    }
+    .lefttext ul{
+        padding: 0 0 0 14px;
+    }
+    
+    .lefttext ul li img{       
+        width: 19px;
+    }
+    .lefttext ul li span{
+        font-size: 17px;
+    }
+    .demobtn{
+        margin-bottom: 10px;
+       
+    
+    }
+    .downloadbtn{
+       margin-bottom: 10px;
+    
+        
+    }
+    .rightform{
+        width: 90%;
+       
+        background-size: 100%;
+    }
+    .form{
+        width: 66%;
+       
+        padding: 56px 10px 22px 10px;
+       
+        
+    }
+    .form input{
+        width: 72%;
+        padding: 6px 20px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        /* border: none; */
+        
+        border: 1px solid #D0D5DD;
+    }
+    .form button{
+        padding:6px 20px ;
+        width: 92%;
+        background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+        color: #FFFFFF;
+        border-radius: 8px;
+        border-color: #D0D5DD;
+    }
+    /* end row1 */
+    /* start row2 */
+    #row2 .box1{
+        padding: 10px;
+    }
+    /* end row2 */
+    #row3>p{
+        text-align: center;
+    }
+    .row3 .box1{
+        display: flex;
+        width: 40%;
+       margin: 0 10px;
+        box-sizing: border-box;
+       
+    
+    }
+    .row3 .box1 .boxA{
+        margin:10px  10px 0 0 ;
+        
+        
+    }
+    .row3 .box1 .boxB .boxb{
+        font-size: 12px;
+    }
+    .row3 p{
+        font-size:8px ;
+    }
+    
+    .row3 .box1 .boxB h3{
+        font-size: 11px;
+        padding-top:10px ;
+        
+    }
+    .row3 .box1 .boxB p{
+        font-size: 8px;
+    }
+    
+    .bookbtn button{
+        margin-left: 50px;
+        
+        
+    
+    }
+    /* end row3 */
+    /* start row4 */
+    #row4 figcaption{
+        max-width: 100%;
+       
+    }
+    #row4 figcaption h1{
+        font-size: 30px;
+    }
+    #row4 article p{
+    
+        padding: 20px 13px;
+    }
+    .row4 .box1{
+        width: 42%;
+        margin: 4px;
+         
+    }
+    .row4 .box1 figure{
+                box-shadow: 0 0 2px 0 #43505B;
+        width: 30%;
+        
+    }
+    .row4 .box1 figure img{
+        padding: 10% 0 0 13%;
+    }
+    .row4 .box1 b{
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    .row4 .box1.box1text{
+        font-size: 12px;
+    }
+    /* end row4 */
+    /* start row5 */
+    #row5 .left{
+        width: 90%;
+    }
+    #row5 .left h1{
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    #row5 .left p{
+        font-size: 16px;
+        margin: 10px 0;
+    
+    }
+    
+    #row5 .left .box1 img{
+
+        padding: 10px 10px 0 0;
+    }
+    #row5 .left  .bookbtn2{
+        max-width: 60%;
+        margin-left: 42px;
+    }
+    #row5 .right{
+        width: 90%;
+    }
+    /* end row5 */
+    /* start row6 */
+    #row6 figcaption{
+        width: 100%;
+        margin: 0;
+        
+    }
+    #row6 figcaption h1{
+        font-size: 26px;
+    }
+    #row6 p{
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    #row6 ul li{
+        margin: 5px;
+        padding: 0px;
+    }
+    #row6 ul li:nth-child(1){
+        padding: 10px 0;
+    
+    }
+    #litext{
+        display: none;
+    }
+    #row6 .boxA{
+        width: 99%;
+      
+        padding: 0px;
+    }
+    #row6 .boxA .box1{
+        width: 90%;
+      
+    }
+    .bookbtn3 button{
+        margin: 20px 50px;
+        
+    }
+    /* end roe6 */
+    /* start row7 */
+    #row7 h1{
+        font-size: 25px;
+        padding: 10px 10px;
+    }
+    #row7>p{
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+    .box_block{
+       
+        padding: 1px;
+       
+    }
+    #row7 .box_block .box1{
+        width: 42%;
+        margin: 5px;
+        padding: 9px;
+    }
+    #row7 .box_block .box1 h3{
+        font-size: 16px;
+       
+    }
+    #row7 .box_block .box1 p{
+        font-size: 14px;
+    }
+    .bookbtn4 button{
+       
+        margin: 20px 24px;
+       
+    }
+    /* end row7 */
+    /* start row8 */
+    #row8>figcaption{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #row8 figcaption h1{
+        font-size: 26px;
+    }
+    #row8 p{
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    #row8 .box1_block1 .box1{
+        width: 85%;
+        padding: 10px;
+        box-shadow: 0 0 5px 0 black;
+        
+    }
+    /* end row8 */
+    .block{
+        display: none;
+    }
+    /* end block */
+    /* start row9 */
+    #row9>figcaption{
+        width: 90%;
+        margin:  20px auto 0 auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #row9 figcaption h1{
+        font-size: 25px;
+        
+    }
+    #row9 article p{
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    #row9 .box1{
+        width: 85%;
+    }
+    #row9 .boxA h4{
+        font-size: 13px;
+       
+    }
+    /* end row9 */
+    /* start row10 */
+    #row10 h1{
+        font-size: 25px;
+        
+    }
+    /* end row10 */
+    /* start footer */
+    footer{
+        
+    padding: 2px 0;
+    }
+    footer .box1 p{
+        color: white;
+        padding: 0;
+        font-size: 10px;
+    }
+    footer .box2{
+        width: 70%;
+        margin:5px auto;
+        font-size: 10px;
+        color: white;
+        text-align: center;
+    }
+    /* end footer */
+    .divblogend{
+        width: 100%;
+        display: flex;
+        position: sticky;
+        bottom: 0;
+    }
+    .divend{
+        width: 50%;
+        text-align: center;
+        font-size: 22px;
+    }
+    #divleft{
+        background-color: #035fae;
+        color: white;
+        padding: 20px 10px;
+    }
+    #divright{
+        background-color:  #27ae60;
+        color: white;
+        padding: 20px 10px;
+    }
+}
+    
