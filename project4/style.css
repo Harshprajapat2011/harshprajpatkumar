@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    box-shadow: 0 0 10px 0 black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+header .logo{
+    width: 10%;
+    margin:10px 151px;
+    /* border: .1px solid; */
+    
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+header nav ul{
+    display: flex;
+    margin-right: 150px;
+
+}
+header nav ul li{
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* end header */
+/* start row1 */
+#rowbox1{
+    width: 100%;
+    height: 555px;
+    background-image: url("images/the-town-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#rowbox1 h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
+#rowbox1 i{
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+}
+#rowbox1 i:hover{
+    color: #3496d8;
+}
+/*end rowbox1 */
+#rowbox2{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#rowbox2 figure{
+   max-width: 450px;
+    /* border: .1px solid; */
+    margin-left: 192px;
+}
+#rowbox2 figure img{
+    width: 100%;
+    height: 100%;
+}
+#rowbox2 .rightbox2{
+    max-width: 412px;
+    /* border: .1px solid; */
+    margin-right: 215px;
+    padding: 10px 10px;
+}
+#rowbox2 h1{
+    font-size: 45px;
+    color: #3496d8;
+    padding-bottom: 20px;
+}
+#rowbox2 p{
+    font-size: 22px;
+    color: #8f8f8f;
+}
+#rowbox2 button{
+    color: white;
+    background-color: #3496d8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+/* end row2 */
+
+#rowbox3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#rowbox3 .box1{
+    width: 300px;
+    /* border: .1px solid; */
+    text-align: center;
+}
+#rowbox3 .box1 i{
+    font-size: 40px;
+    color: #3496d8;
+    padding: 20px;
+}
+#rowbox3 .box1 h3{
+    font-size: 22px;
+    color: #3496d8;
+    padding-bottom: 10px;
+}
+#rowbox3 .box1 p{
+    color: #8f8f8f;
+          padding: 10px;    
+}
+/* /end row3 */
+#rowbox4{
+    width: 100%;
+    padding: 30px 0;
+
+}
+#rowbox4 main{
+    width: 1000px;
+    text-align: center;
+    margin: 40px auto;
+}
+#rowbox4 main h1{
+    color: #3496d8;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+#rowbox4 main p{
+    color: #8f8f8f;
+    line-height: 20px;
+}
+#rowbox4 .maindiv{
+    width: 100%;
+    border: .1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+#rowbox4 .maindiv .box1{
+    width: 191px;
+    position: relative;
+    overflow: hidden;
+}
+#rowbox4 .maindiv .box1 img{
+    width: 100%;
+    height: 100%;
+}
+#rowbox4 .maindiv .innerdiv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 191px ;
+    background-color: rgb(0, 0, 0, .5);
+    font-size: 28px;
+    box-sizing: border-box;
+    padding: 95px 20px;
+    color: white;
+    /* transform: scale(0); */
+    transform: translateY(-287px);
+    transition: 0.5s;
+    
+}
+#rowbox4 .maindiv .box1:hover .innerdiv{
+    /* transform: scale(1); */
+    transform: translateY(0px);
+    /* transform-origin:top ; */
+}
+/* end row4 */
+#rowbox5{
+    width: 100%;
+    height: 500px;
+    background-image: url("images/the-town-bg-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    padding: 30px 0;
+}
+#row5{
+    width: 1000px;
+    /* border: .1px solid; */
+    margin: 20px auto;
+    color: white;
+}
+#row5 h1{
+    font-size: 40px;
+}
+#row5 .borderdiv{
+    width: 95%;
+    border: 1px solid;
+}
+#row5 .borderdiv1{
+    width: 20%;
+    border: 5px solid;
+}
+#row5 p{
+    font-size: 18px;
+    padding: 20px 0;
+    line-height: 30px;
+}
+   .divblock{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+   } 
+   .divblock .box1{
+    width: 50%;
+    padding: 20px 0;
+    
+   }
+   .divblock .box1 i{
+    font-size: 30px;
+    padding: 10px;
+    
+   }
+   .divblock .box1 input{
+    border: .1px solid white;
+    color: white;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 10PX;
+    margin-right: 10px;
+   }
+   .divblock .box1 input::placeholder{
+    color: white;
+   }
+   .divblock .box1 button{
+    color: black;
+    background-color: #ced4da;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    border: none;
+   }
+   footer{
+    width: 50%;
+    margin: auto;
+    margin-top: 129px;
+    /* border: .1px solid; */
+    text-align: center;
+    color: white;
+   }
