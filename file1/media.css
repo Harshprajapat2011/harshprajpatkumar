@@ -1,0 +1,270 @@
+ @media only screen and (min-width:0px) and (max-width:575px){
+.headerleft{
+    margin: auto;
+
+}
+.headerright{
+    display: none;
+}
+/* end header */
+/* start row1 */
+.row1{
+    height: auto;
+}
+.row1box1{
+    flex-direction: column;
+}
+.row1left{
+    width: 100%;
+    margin-top: 0px;
+    
+    text-align: center;
+    
+}
+.row1left span{
+    font-size: 30px;
+
+}
+.row1left h1{
+    padding: 5px 10px;
+    font-size: 26px;
+}
+.row1left h2{
+    padding: 5px 10px;
+    font-size: 22px;
+}
+.row1left h3{
+    padding: 5px 10px;
+    font-size: 20px;
+   
+}
+.row1right{
+    width: 100%;
+    margin-top: 0px;
+    
+    
+}
+.row1form>input{
+    margin: 6px 25px;
+}
+.formcaptcha{
+    width: 100%;
+    
+    background-color: #ccc;
+    flex-direction: column;
+    
+
+}
+.formcaptcha input{
+    width: 90%;
+    margin: 10px 25px;
+    
+
+}
+.formcode{  
+    margin: 10px 25px;
+    width: 90%;
+}
+.row1form button{
+    margin: 10px 25px;
+    }
+/* end row1 */
+/* start container */
+.videoblog img {
+    padding-right: 10px;
+    width: 30px;
+    height: 26px;
+
+}
+.videoblog h1{
+    font-size: 22px;
+}
+
+.box{ width:95%;
+margin: auto;} 
+/* end container */
+/* start coresrvice */
+.coretext img{
+    padding-right: 10px;
+    width: 30px;
+    height: 26px;
+}
+.coretext h1{
+    font-size: 22px;
+}
+.coreimg{   
+    flex-direction: column;   
+}
+.corebox{
+    width: 98%;
+}
+     /* end coreservices */
+     /* start whypackshift */
+
+
+
+     .packboxA{
+        width: 48%;
+        margin: 1%;
+        padding: 0%;
+    }
+    .whypackblock img{
+        width: 30px;
+        height: 26px;
+    }
+    .whypackblock h1{
+        font-size: 22px;
+    }
+    .whypackblock h3{
+        font-size: 16px;
+    }
+    /* end whypackshift */
+    /* start achivement */
+    .achiveblock img{
+        width: 30px;
+    height: 26px;
+    }
+    .achiveblock h1{
+        font-size: 22px;
+        
+    }
+    .achiveblock1{
+        padding: 10px;
+    }
+    .achiveblock1 h3{
+        font-size: 18px;
+        
+    }
+    .achivebox1{
+        max-width: 48%;
+        padding: 10px;
+    }
+    /* end achivement */
+    /* start custmer blog */
+    .customerblock img{
+        
+        width: 30px;
+        height: 26px;
+    }
+    .customerblock h1{
+        font-size: 22px;
+    }
+    .blogA{
+        min-height: 376px;  
+    }
+    .blogdiv{
+        max-width: 140px;
+        font-size: 22px;
+          top: 11px;
+        left: 108px;
+    }
+    .blogA p{
+        width: 80%;
+            top: 200px;
+        left: 51px;
+    
+    }
+    .pictag{
+        display: none;
+    }
+    /* end customer blog */
+    /* start client */
+    .clientsblock img{
+        width: 30px;
+        height: 26px;
+    }
+    .clientsblock h1{
+        font-size: 22px;
+    }
+    .clientsdiv{
+        flex-direction: column;
+    }
+    .company1{
+         margin: 10px auto;
+         max-width: 200px;
+    }
+/* end clients */
+/* /start branches */
+.branchesblock img{
+    width: 30px;
+    height: 26px;
+}
+.branchesblock h1{
+    font-size: 22px;
+}
+.branchesdiv{
+    flex-direction: column;
+}
+/* end branches */
+/* start rowend */
+.rowend{
+    width: 100%;
+    background-color: #f4f4f4;
+        padding: 10px;   
+    
+}
+.rowendblock img{
+    width: 30px;
+    height: 26px;
+}
+.rowendblock h1{
+    font-size: 20px;
+}
+.rowblock{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+     flex-direction: column;
+}
+.rowblockA{
+    width: 90%;
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+/* end */
+/* start footer */
+.footerrow1 h6{
+    margin-left: 65%;
+    padding-top: 20px ;
+}
+.footerrow2 h5{
+    font-size: 10px;
+}
+/* end footer */
+.arrow img{
+    display: none;
+}
+.cardiv img{
+    display: none;
+}
+
+
+.divblogend{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+}
+.divend{
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+}
+#divleft{
+    background-color: #035fae;
+    color: white;
+    padding: 20px 10px;
+}
+#divright{
+    background-color:  rgb(255, 207, 64);
+    color: white;
+    padding: 20px 10px;
+}
+
+
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+     .box{ width:45%;
+    margin: auto;} 
+}
