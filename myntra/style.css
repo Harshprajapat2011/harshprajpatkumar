@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    /* border: .1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    align-items: center;
+    top: 0; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+.leftmenubar{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 53px;
+    height: 57px;
+    /* border: .1px solid black; */
+    margin-left:  40px;
+}
+/* .listmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.listmenu{
+    /* height: 80px; */
+}
+.listmenu_bar{
+     display: flex;
+    align-items: center;  
+    /* height: 80px; */
+    
+
+    /* justify-content: space-between; */
+    /* margin: 38px 0 0 0; */
+    box-sizing: border-box;
+     position: relative;
+     transition: 1s;
+}
+.listmenu>ul>li{
+    padding: 29px 9px;
+ 
+    /* margin: 0 0 0 0; */
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.listmenu>ul>li:hover {
+    border-bottom: 2px solid red;
+}
+
+.dropmenu1{
+    position: absolute;
+    transition: .1s;
+    top: 79px;
+    width: 1000px;
+    height: auto;
+    /* border: .1PX solid black; */
+    background-color: #f5f5f6;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+    box-shadow: 0 0 1px rgba(0, 0, 0, 4.5);
+    
+
+}
+.border{
+    width: 100px;
+    border: .1px solid black;
+}
+.dropmenu1 ul li{
+    /* display: block !important; */
+    padding: 0 22px 12px 0;
+}
+.listmenu_bar>li:hover .dropmenu1{
+    /* display: block; */
+    opacity: 1;
+    visibility: inherit;
+    /* border-bottom: 1px solid red; */
+    /* transform: rotate(360deg); */
+}
+/* .dropmenu1>ul>li{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+} */
+/* .listmenu2{
+    width: 20%;
+} */
+ .border1{
+    width: 100px;
+    border: .1px solid;
+ }
+.listmenu2 ul{
+    display: flex;
+    margin: 34px 0 0 0;
+    box-sizing: border-box;
+
+}
+.listmenu2 li{
+    padding: 0 7px 0 7px;
+    /* margin: 0 0 0 0; */
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.listmenu span{
+    color: red;
+    font-size: 12px;
+}
+.rightmenubar{
+    display: flex;
+}
+.searchmenubar{
+    width: 500px;
+    height: 38px;
+    display: flex;
+    background:#f5f5f6;
+    margin-left: 16px; 
+    /* padding-left:10px ; */
+}
+.searchicon{
+    margin-top: 12px;
+    padding-left: 10px;
+}
+/* .searchmenu{
+    margin-top: 28px;
+    padding-left: 15px;
+    background: #f5f5f6;
+    
+} */
+.searchmenu input{
+    width: 480px;
+    height: 38px;
+    color: #696e79;
+    padding-left: 10px;
+    background-color: #f5f5f6;
+    border: none;
+    
+}
+.rightmeubar{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    /* margin-top: 28px; */
+    margin-left: 55px;
+    /* padding: 0 0 0 0; */
+    /* border: .1px solid black; */
+}
+.rightmeubar_icon{
+    text-align: center;
+    /* padding: 0 6px 0 4px; */
+    font-size: 17px;
+    font-weight: 600;
+    font-family: serif;
+}
+/* end header */
+/* start coupan1 */
+.coupan1{
+    width: 97%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    /* border: .1px solid balck; */
+    background-color: #f5f5f6;
+    padding: 20px 20px 15px 20px;
+
+}
+.coupan1 img{
+    width: 100%;
+   
+}
+/* start banner */
+.banner{
+    width: 95%;
+    /* height: auto; */
+    margin: 20px auto;
+    display:flex;
+
+}
+.banner1{
+    width: 50%;
+}
+.banner1 img{
+      width: 100%;    
+}
+/* end banner */
+/* coupandeals */
+.coupandeals{
+    width: 100%;
+}
+.coupan2 img{
+    width: 100%;
+}
+.coupandeals2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.coupan3 img{
+    width: 100%;
+}
+.coupan4 img{
+    width: 100%;
+}
+.crezydeals img{
+    width: 100%;
+}
+/* end coupan deals  */
+/* start imgbar */
+.imgbar{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.imgbar1{
+    width: 20%;
+}
+.imgbar1 img{
+    width: 100%;
+}
+/* end img bar */
+.shopcatrgory{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.shopcatrgory img{
+    width: 100%;
+}
+/* end shop catrgory */
+/* shoppics */
+.shop_pics{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.shop_pic_col{
+    width: 20%;
+    /* display: flex; */
+
+}
+.shop_pic_col img{
+    width: 100%;
+}
+/* shop pic end  */
+/* s offer section */
+.offer_section{
+    width: 100%;
+    margin: auto;
+}
+.offer_section img{
+    width: 100%;
+}
+/* end offer section */
+/* start footer */
+.footer{
+    width: 1500px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 30px auto;
+     
+}
+.footerblock{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+}
+.footer1{
+    width: 20%;
+
+}
+.footer1_top{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.footer1_bottom li{
+    font-size: 15px;
+    color: #696b79;
+    padding-bottom: 6px;
+
+}
+.footer3{
+    width: 28%;
+}
+.footer3_img{
+    width: 100%;
+    display: flex;
+}
+.footer3_img img{
+    width: 120px;
+}
+.footer3_bottom{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.footer3_bottom_pic img{
+     width: 25px;
+     padding-top: 10px;
+
+}
+.footer4{
+    width: 35%;
+    box-sizing: border-box;
+
+}
+.footer4_top{
+    width: 90%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.footer4_top_img img{
+    width: 50px;
+    padding-right: 10px;
+}
+.footer4_top_text{
+    font-size: 14px;
+    color: #696b79;
+}
+.footer4_bottom{
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer4_bottom_img img{
+    width: 50px;
+    padding-right: 10px;
+}
+.footer4_bottom_text{
+    font-size: 14px;
+    color: #696b79;
+}
+/* end footer */
+
+.imgfixed{
+    position: fixed;
+    right: 5px;
+    bottom: 30px ;
+}
+.bellicon{
+    width: 47px;
+    height: 37px;
+    background-color: rgb(29, 133, 252);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    color: white;
+    margin: 10px 0;
+}
+.facebook{
+    width: 47px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(24, 119, 242);
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    color: white;
+    margin: 10px 0;
+}
+.watsapp{
+    width: 47px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(37, 211, 102);
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    color: white;
+    margin: 10px 0;
+}
+.telegram{
+    width: 47px;
+    height: 35px;
+    border-radius: 50%;
+    background-color:rgb(42, 171, 238);
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    color: white;
+    margin: 10px 0;
+}
